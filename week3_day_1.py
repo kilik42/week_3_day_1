@@ -21,33 +21,34 @@ age = 25 # integer variable
 # 2. name
 name = "John" #string variable
 # 3. song
-aong = "Happy Birthday" #string variable
+song = "Happy Birthday" #string variable
 # 4. food
 food = "apples" #string variable
 # 5. number
 number = 1000 #integer variable
 
 # #now include the variables you just made print in the following...
-
-# Once upon a time, there was a [age] old coder named [name]. 
-#concatenation --- + around your variables
 print("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
-print("there was a number " + str(number) + "as well")
-#put the age and number in a new sentence
-date_of_birth = 2021
-number2 = 123
-number3 = 123.456
-number4 = 123.33
-number5 = 4555
-#create a sentence of all of this above
-print(f"the date of birth is {date_of_birth} and the number is 
-      {number2} and the number is {number3} and the number is 
-      {number4} and the number is {number5}")
+# Once upon a time, there was a [age] old coder named [name]. 
+
 
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+
+
+number1 = 100
+number2 = 200
+number3 = 300
+number4 = 400
+number5 = 500
+#put all of these into a sentence
+# print(str(number) +"."+ str(number1) +","+ str(number2)+ ","+ "," + ","+ number3 + "," + number4 + number5)
+#f strings
+print(f"{number}.{number1},{number2},{number3},{number4},{number5}")
+
 ##########################################################################################
 
 
@@ -72,13 +73,13 @@ print(f"the date of birth is {date_of_birth} and the number is
 
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 # The first name of a person
